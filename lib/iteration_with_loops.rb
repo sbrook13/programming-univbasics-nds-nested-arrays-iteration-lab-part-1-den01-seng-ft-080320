@@ -3,8 +3,8 @@ def find_even_values(src)
   while count < src.length do
     inner_count = 0
     while inner_count < src[count].length do
-      if src.length[count]%2 == 0
-        p src.length[count]
+      if src[count][inner_count]%2 == 0
+        p src[count][inner_count]
       end
       inner_count+= 1
     end
